@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="main">
+    <div class="topnav" id="topnav">
+        <h3 class="title">Cars</h3>
+        <p id="helpmain" onclick="help()">help</p>
+    </div>
+    <div class="centercontent" id="centercontent">
+        <div class="carlogoname">
+            <div class="carlogooutter">
+                <img id="carlogo" src="lamborghini-logo.png">
+            </div>
+            <p id="carname">Lamborghini</p>
+        </div>
+        <div class="carmain">
+            <div class="carpic">
+                <img id="carimg" src="lambi.jpg">
+            </div>
+            <div id="cardetails" class="carnameordetails">
+                <p class="cardetailsmain">Car Company Details</p>
+                <div class="compdet">
+                    <p class="alter1 companyname">Company Name: <span class="alter2" id="alternamecompany">Automobili Lamborghini S.p.A.</span></p>
+                    <p class="alter1 foundername">Founder: <span class="alter2" id="alterfoundername">Ferruccio Lamborghini</span></p>
+                    <p class="alter1 founded">Founded: <span class="alter2" id="alterfounded">1963; 61 years ago</span></p>
+                    <p class="alter1 headquater">Headquaters: <span class="alter2" id="alterhead">Sant'Agata Bolognese, Emilia-Romagna, Italy</span></p>
+                    <p class="alter1 products">Production output: <span class="alter2" id="alterproduct">Increase 9,233 vehicles</span></p>
+                    <p class="alter1 owner">Owner: <span class="alter2" id="alterowner">Volkswagen Group</span></p>
+                </div>
+                <a id="link" href="https://www.lamborghini.com/en-en">website link</a>
+            </div>
+        </div>
+        <div class="whatcarnowlist">
+            <div class="titleforname">
+                <p class="carnamelisttitle">Brands</p>
+            </div>
+            <div class="carlist">
+                <p onclick="lamb()" id="Lamborghini-but" class="carnamelist">Lamborghini</p>
+                <p onclick="bug()" id="Bugatti-but" class="carnamelist">Bugatti</p>
+                <p onclick="ferr()" id="Ferrari-but" class="carnamelist">Ferrari</p>
+                <p onclick="mini()" id="Mini-but" class="carnamelist">Mini Cooper</p>
+                <p onclick="porsch()" id="Porsche-but" class="carnamelist">Porsche</p>
+                <p onclick="asto()" id="Aston-but" class="carnamelist">Aston Martin</p>
+                <p onclick="benz()" id="Mercedes-but" class="carnamelist">Mercedes</p>
+                <p onclick="mcl()" id="McLaren-but" class="carnamelist">McLaren</p>
+                <p onclick="bmw()" id="BMW-but" class="carnamelist">BMW</p>
+                <p onclick="audi()" id="audi-but" class="carnamelist">audi</p>
+            </div>
+        </div>
+    </div>
+    <footer id="foot">
+        <p>Created By : navadeepakaswin007@gmail.com</p>
+    </footer>
+    <div class="help" id="help">
+            <p class="contenthelp">This page is simple car gerage, this is try to implement the new idea's then this is created for the developer skill expression, thank you.</p>
+            <p class="close" id="close" onclick="c()">close</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
